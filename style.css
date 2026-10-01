@@ -229,6 +229,13 @@ figure {
   box-shadow: 0 12px 25px rgba(2, 40, 115, 0.2);
 }
 
+i.fi {
+  display: inline-block;
+  font-size: 1em;
+  line-height: 1;
+  vertical-align: middle;
+}
+
 .text-link {
   display: inline-flex;
   align-items: center;
@@ -236,6 +243,23 @@ figure {
   color: var(--navy);
   font-size: 14px;
   font-weight: 700;
+}
+
+.button .fi,
+.text-link .fi,
+.main-nav .nav-contact .fi,
+.image-hint .fi {
+  font-size: 1.08em;
+}
+
+.note-mark .fi,
+.caption-icon .fi,
+.contact-icon .fi,
+.pillar-icon .fi,
+.hero-sticker-mark .fi,
+.manifesto-star .fi,
+.contact-note .fi {
+  font-size: 1.15em;
 }
 
 .hero-note {
@@ -376,7 +400,8 @@ figure {
   transform: rotate(9deg);
 }
 
-.hero-sticker span {
+.hero-sticker-mark {
+  display: block;
   margin-bottom: 2px;
   font-size: 21px;
 }
